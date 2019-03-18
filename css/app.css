@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  padding: 3rem 1.5rem 1rem;
+}
+
+.navbar-item img {
+  max-height: 3.5rem !important;
+}
+
+.column-header {
+  display: block;
+  background-color: #00853d;
+}
+
+.is-zum-black {
+  background-color: #212721 !important;
+  color: #fff !important;
+}
+
+.is-zum-green {
+  background-color: #00853d !important;
+  color: #fff !important;
+}
+
+.navbar-item {
+  font-weight: bold !important;
+}
+
+.same-height {
+  align-items: stretch;
+  min-height: 293px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.field-names {
+  font-weight: 500;
+}
+
+.sorting,
+.sorting_asc,
+.sorting_desc {
+  background: none !important;
+}
+
+#transactionPool,
+#recentBlocks,
+#transactions,
+#transactionInputs,
+#transactionOutputs,
+#paymentIdTransactions,
+.table {
+  font-size: 9pt;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+#paymentIdTransactions_filter, #paymentIdTransactions_paginate, #paymentIdTransactions_length {
+  font-size: 8pt !important;
+}
+
+#poolPieChart {
+  width: 100%;
+}
+
+#globalHashRate {
+  font-weight: bold;
+}
+
+#blockchainChartLarge {
+  height: 512px;
+}
+
+#transactionPool_wrapper {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.dataTables_wrapper {
+  width: 100% !important;
+}
+
+.dataTables_empty {
+  text-align: center !important;
+}
+
+.badge[data-badge]::after {
+  background-color: #212721 !important;
+}
+
+.chart {
+  width: 100%;
+  min-height: 242px;
+}
+
+a {
+  color: #00853d;
+}
+
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+  color: #00853d !important;
+}
+
+.zum-amount, .zum-fee, .zum-type, .zum-size, .zum-txns, .zum-datetime, .zum-icon {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.zum-amount, .zum-fee {
+  width: 175px;
+}
+
+.zum-type {
+  width: 100px;
+}
+
+.zum-size, .zum-txns {
+  width: 100px;
+}
+
+.zum-datetime {
+  width: 280px;
+}
+
+.zum-icon {
+  width: 15px;
+}
+
+.is-ours {
+  background-color: #40c18e !important;
+}
