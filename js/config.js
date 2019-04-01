@@ -1,7 +1,7 @@
 const ExplorerConfig = {
   apiBaseUrl: 'https://blockapi.zumpay.io',
   poolApiUrl: 'https://poolapi.zumpay.io/',
-  poolListUrl: 'https://raw.githubusercontent.com/zumcoin-org/zumcoin-pools-json/master/list/zumcoin-pools.json',
+  poolListUrl: 'https://raw.githubusercontent.com/zumcoin/zumcoin-pools-json/master/list/zumcoin-pools.json',
   ticker: 'ZUM',
   maxSupply: 100000000000000,
   decimalPoints: 8,
